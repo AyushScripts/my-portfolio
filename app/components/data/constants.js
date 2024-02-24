@@ -121,6 +121,11 @@
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
+          name: "Java",
+          image:
+            "https://w7.pngwing.com/pngs/34/978/png-transparent-java-object-oriented-jvm-java-logo-applications-web-services-3d-icon.png",
+        },
+        {
           name: "Netlify",
           image:
             "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
@@ -144,3 +149,33 @@
       ],
     },
   ];
+
+  export const ProjectsData = [
+    {
+      id: 1,
+      title: "ClimaCast Weather App",
+      description: "NextJS | ReactJS | TypeScript | TailwindCSS | OpenWeatherMap API",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/"
+    },
+    {
+      id: 2,
+      title: "HorizonPay",
+      description: "HTML | Javascript | TailwindCSS",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/"
+    },
+    {
+      id: 3,
+      title: "Team App",
+      description: "Webflow | Figma",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "No-code"],
+      gitUrl: "/",
+      previewUrl: "/"
+    }
+  ]

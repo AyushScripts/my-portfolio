@@ -6,6 +6,7 @@ import { IoIosMoon } from "react-icons/io";
 import React, { useState } from 'react'
 import Link from "next/link";
 import Skills from "./components/Skills";
+import ProjectSection from "./components/ProjectSection";
 
 
 export default function Home() {
@@ -42,6 +43,10 @@ export default function Home() {
         </div>
 
         <Skills/>
+        <div className="container mt-24 mx-auto px-12 py-4">
+          <ProjectSection/>
+        </div>
+        
 
       
     </main>

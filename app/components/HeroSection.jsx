@@ -19,9 +19,9 @@ const HeroSection = () => {
                             // Same substring at the start will only be typed out once, initially
                             'Ayush',
                             2000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'a Web Developer',
+                            'a programmer.',
                             1500,
-                            'a Frontend Developer',
+                            'a MERN Developer.',
                             1500
                             
                             
@@ -32,7 +32,7 @@ const HeroSection = () => {
                       />
                 </h1>
                 <p className='text-[#817d7d] dark:text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl'>
-                    I am a full stack (MERN) developer with a passion for front-end and no-code development.
+                    I am a full-stack (MERN) developer with a passion for front-end and no-code development.
                 </p>
                 <SocialLinks/>
             </div>

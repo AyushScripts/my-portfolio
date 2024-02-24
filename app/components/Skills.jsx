@@ -12,6 +12,7 @@ const Skills = () => {
         <div id='skillsContainer' className='w-full flex flex-wrap mt-10 px-5 md:px-0 gap-12 justify-center'>
           {skills.map((skill, index) => (
             
+            
             <div id="skills" key={`skill-${index}`} className='w-full max-w-[500px]  bg-[#111928]/80 border border-[#ffffff]/10 rounded-2xl py-5 px-9'>
               <p id='skillTitle' className='text-2xl font-medium mt-3 mb-14 lg:mb-20 text-center dark:text-[#f3bff3] text-white'>
                 {skill.title}
@@ -25,6 +26,7 @@ const Skills = () => {
                 ))}
               </div>
             </div>
+            
             
           ))}
         </div>
