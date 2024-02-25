@@ -113,17 +113,17 @@
         {
           name: "Git",
           image:
-            "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         },
         {
           name: "GitHub",
           image:
-            "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
           name: "Java",
           image:
-            "https://brandslogos.com/wp-content/uploads/thumbs/java-logo-vector-1.svg",
+            "https://cdn.freebiesupply.com/logos/large/2x/java-14-logo-png-transparent.png",
         },
         {
           name: "Netlify",
