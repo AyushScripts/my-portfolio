@@ -1,5 +1,6 @@
 import React from 'react';
 import { skills } from './data/constants';
+import Image from 'next/image';
 
 
 const Skills = () => {
@@ -20,7 +21,7 @@ const Skills = () => {
               <div id='skillList' className='flex justify-center flex-wrap gap-3 mb-5'>
                 {skill.skills.map((item, index) => (
                   <div key={`skill-item-${index}`} className='text-base font-normal dark:text-white text-[#f3bff3] border border-slate-500 dark:bg-[#eea4a42c] rounded-xl px-4 py-3 flex items-center justify-center gap-2'>
-                    <img className='w-6 h-6' src={item.image} alt='Skill Icon' />
+                    <Image src={item.image} width={24} height={24} alt='Skill Icon' />
                     <p>{item.name}</p>
                   </div>
                 ))}
