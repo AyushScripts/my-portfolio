@@ -118,12 +118,12 @@
         {
           name: "GitHub",
           image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "https://cdn-icons-png.flaticon.com/512/25/25231.png",
         },
         {
           name: "Java",
           image:
-            "https://w7.pngwing.com/pngs/34/978/png-transparent-java-object-oriented-jvm-java-logo-applications-web-services-3d-icon.png",
+            "https://brandslogos.com/wp-content/uploads/thumbs/java-logo-vector-1.svg",
         },
         {
           name: "Netlify",
