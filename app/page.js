@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import ProjectSection from "./components/ProjectSection";
 
 
+
 export default function Home() {
   
   const [darkMode, setDarkMode] = useState(true);
@@ -25,7 +26,7 @@ export default function Home() {
         {/* Navbar */}
         <nav className="sticky z-10 top-0 w-full dark:bg-[#121212] bg-white">
           <div className='flex flex-wrap items-center justify-between mx-auto p-8 lg:p-12'>
-            <Link href={"/"} className='font-serif text-2xl lg:text-4xl  font-semibold text-[#333333] dark:text-white '>{"<Ayush/>"}</Link>
+            <Link href={"/"} className='font-serif text-2xl lg:text-4xl  font-semibold text-[#333333] dark:text-white '>ayush.</Link>
             <div className='toggleButton'>
                 <button className='text-3xl'
                 onClick={toggleDarkMode}
@@ -45,6 +46,10 @@ export default function Home() {
         <Skills/>
         <div className="container mt-24 mx-auto px-12 py-4">
           <ProjectSection/>
+          
+          <footer className="mt-20 mb-5">
+            <p className="text-center text-[#131313]/50 dark:text-white/50 text-xs md:text-sm">©{new Date().getFullYear()} Ayush B. All rights reserved. </p>
+          </footer>
         </div>
         
 

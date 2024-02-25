@@ -22,6 +22,8 @@ const HeroSection = () => {
                             'a programmer.',
                             1500,
                             'a MERN Developer.',
+                            1500,
+                            'an AI enthusiast.',
                             1500
                             
                             
