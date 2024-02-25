@@ -85,7 +85,7 @@
         {
           name: "Figma",
           image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+          "https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png",
         },
         {
           name: "Canva",
@@ -101,7 +101,7 @@
         {
           name: "Adobe XD",
           image:
-            "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+            "https://download.logo.wine/logo/Adobe_XD/Adobe_XD-Logo.wine.png",
         },
         
       ],
