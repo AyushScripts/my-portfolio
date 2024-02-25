@@ -157,8 +157,8 @@
       description: "NextJS | ReactJS | TypeScript | TailwindCSS | OpenWeatherMap API",
       image: "./images/Projects/Climacast.png",
       tag:["All", "Web"],
-      gitUrl: "/",
-      previewUrl: "/"
+      gitUrl: "https://github.com/AyushScripts/ClimaCast",
+      previewUrl: "https://climacast-delta.vercel.app"
     },
     {
       id: 2,
@@ -166,16 +166,71 @@
       description: "HTML | Javascript | TailwindCSS",
       image: "./images/Projects/Climacast.png",
       tag:["All", "Web"],
-      gitUrl: "/",
-      previewUrl: "/"
+      gitUrl: "https://github.com/AyushScripts/HorizonPay",
+      previewUrl: "https://horizonpay.netlify.app"
     },
     {
       id: 3,
+      title: "My Portfolio",
+      description: "NextJs | ReactJs | TailwindCSS",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "Web"],
+      gitUrl: "https://github.com/AyushScripts/my-portfolio",
+      previewUrl: "https://ayushscripts.netlify.app"
+    },
+    {
+      id: 4 ,
+      title: "2048 Game",
+      description: "HTML | CSS | Javascript",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "Web"],
+      gitUrl: "https://github.com/AyushScripts/2048-Project",
+      previewUrl: "https://2048byayush.netlify.app"
+    },
+    {
+      id: 5,
+      title: "AquaFlow",
+      description: "Webflow | Figma",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "No-code"],
+      gitUrl: "https://preview.webflow.com/preview/aquaflowbyayush?utm_medium=preview_link&utm_source=dashboard&utm_content=aquaflowbyayush&preview=d0cb3fb27fda55ccfff4faec8ade4ec8&workflow=preview",
+      previewUrl: "https://aquaflowbyayush.webflow.io"
+    },
+    {
+      id: 6,
       title: "Team App",
       description: "Webflow | Figma",
       image: "./images/Projects/Climacast.png",
       tag:["All", "No-code"],
+      gitUrl: "https://preview.webflow.com/preview/vakos-team-app?utm_medium=preview_link&utm_source=designer&utm_content=vakos-team-app&preview=c818e7857734faa8c7960125c72940b0",
+      previewUrl: "https://team-app.webflow.io/"
+    },
+    {
+      id: 7,
+      title: "Chat App",
+      description: "Webflow | Figma",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "No-code"],
+      gitUrl: "https://preview.webflow.com/preview/vakos-chat-app?utm_medium=preview_link&utm_source=dashboard&utm_content=vakos-chat-app&preview=2154452b4341c853684a4611c378c86c&workflow",
+      previewUrl: "https://chat-app-homepage.webflow.io/"
+    },
+    {
+      id: 8,
+      title: "Apple Podcasts",
+      description: "(Desktop Only Version) Webflow | Figma",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "No-code"],
+      gitUrl: "https://preview.webflow.com/preview/ayush-applepodcasts?utm_medium=preview_link&utm_source=designer&utm_content=ayush-applepodcasts&preview=6bac94dbc70649746449d28af8635bf5&workflow=preview",
+      previewUrl: "https://ayush-applepodcasts.webflow.io/"
+    },
+    {
+      id: 9,
+      title: "N-Spire Landing Page",
+      description: "Webflow | Figma",
+      image: "./images/Projects/Climacast.png",
+      tag:["All", "No-code"],
       gitUrl: "/",
-      previewUrl: "/"
-    }
+      previewUrl: "https://n-spire.io/"
+    },
+
   ]
