@@ -7,6 +7,7 @@ import React, { useState } from 'react'
 import Link from "next/link";
 import Skills from "./components/Skills";
 import ProjectSection from "./components/ProjectSection";
+import ContactMe from "./components/ContactMe";
 
 
 
@@ -46,6 +47,7 @@ export default function Home() {
         <Skills/>
         <div className="container mt-24 mx-auto px-12 py-4">
           <ProjectSection/>
+          <ContactMe/>
           
           <footer className="mt-20 mb-5">
             <p className="text-center text-[#131313]/50 dark:text-white/50 text-xs md:text-sm">©{new Date().getFullYear()} Ayush B. All rights reserved. </p>
