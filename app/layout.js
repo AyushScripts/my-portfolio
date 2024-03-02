@@ -9,10 +9,12 @@ export const metadata = {
   description: "Portfolio of a Passionate Frontend Dev and an AI Enthusiast.",
   openGraph: {
     images: {
-      url: './images/OG-img.jpg',
+      url: '/opengraph-image.jpg',
     }
   },
-
+  icons: {
+    icon: "/favicon.ico",
+  }
 };
 
 export default function RootLayout({ children }) {
