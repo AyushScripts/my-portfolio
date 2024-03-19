@@ -189,6 +189,15 @@
     },
     {
       id: 5,
+      title: "ForwardX",
+      description: "Webflow | Client-first Framework | Custom Code",
+      image: "./images/Projects/forwardx.png",
+      tag:["All", "No-code"],
+      gitUrl: "/",
+      previewUrl: "https://forwardx.weblow.io/"
+    },
+    {
+      id: 6,
       title: "AquaFlow",
       description: "Webflow | Figma",
       image: "./images/Projects/Aquaflow.png",
@@ -197,7 +206,7 @@
       previewUrl: "https://aquaflowbyayush.webflow.io"
     },
     {
-      id: 6,
+      id: 7,
       title: "Team App",
       description: "Webflow | Figma",
       image: "./images/Projects/Team-app.png",
@@ -206,7 +215,7 @@
       previewUrl: "https://team-app.webflow.io/"
     },
     {
-      id: 7,
+      id: 8,
       title: "Chat App",
       description: "Webflow | Figma",
       image: "./images/Projects/chat-app.png",
@@ -215,7 +224,7 @@
       previewUrl: "https://chat-app-homepage.webflow.io/"
     },
     {
-      id: 8,
+      id: 9,
       title: "Apple Podcasts",
       description: "(Desktop Only Version) Webflow | Figma",
       image: "./images/Projects/apple-podcast.png",
@@ -224,13 +233,22 @@
       previewUrl: "https://ayush-applepodcasts.webflow.io/"
     },
     {
-      id: 9,
+      id: 10,
       title: "N-Spire Landing Page",
       description: "Webflow | Figma",
       image: "./images/Projects/n-spire.png",
       tag:["All", "No-code"],
       gitUrl: "/",
       previewUrl: "https://n-spire.io/"
+    },
+    {
+      id: 10,
+      title: "ForwardX",
+      description: "Webflow | Client-first Framework | Custom Code",
+      image: "./images/Projects/forwardx.png",
+      tag:["All", "No-code"],
+      gitUrl: "/",
+      previewUrl: "https://forwardx.weblow.io/"
     },
 
   ]
