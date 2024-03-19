@@ -193,7 +193,7 @@
       description: "Webflow | Client-first Framework | Custom Code",
       image: "./images/Projects/forwardx.png",
       tag:["All", "No-code"],
-      gitUrl: "/",
+      gitUrl: "https://preview.webflow.com/preview/forwardx?utm_medium=preview_link&utm_source=dashboard&utm_content=forwardx&preview=d89054de7e073c886003bc852e123ccc&workflow=preview",
       previewUrl: "https://forwardx.weblow.io/"
     },
     {
