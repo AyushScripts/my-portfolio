@@ -223,32 +223,15 @@
       gitUrl: "https://preview.webflow.com/preview/vakos-chat-app?utm_medium=preview_link&utm_source=dashboard&utm_content=vakos-chat-app&preview=2154452b4341c853684a4611c378c86c&workflow",
       previewUrl: "https://chat-app-homepage.webflow.io/"
     },
+    
     {
       id: 9,
-      title: "Apple Podcasts",
-      description: "(Desktop Only Version) Webflow | Figma",
-      image: "./images/Projects/apple-podcast.png",
-      tag:["All", "No-code"],
-      gitUrl: "https://preview.webflow.com/preview/ayush-applepodcasts?utm_medium=preview_link&utm_source=designer&utm_content=ayush-applepodcasts&preview=6bac94dbc70649746449d28af8635bf5&workflow=preview",
-      previewUrl: "https://ayush-applepodcasts.webflow.io/"
-    },
-    {
-      id: 10,
       title: "N-Spire Landing Page",
       description: "Webflow | Figma",
       image: "./images/Projects/n-spire.png",
       tag:["All", "No-code"],
       gitUrl: "/",
-      previewUrl: "https://n-spire.io/"
-    },
-    {
-      id: 10,
-      title: "ForwardX",
-      description: "Webflow | Client-first Framework | Custom Code",
-      image: "./images/Projects/forwardx.png",
-      tag:["All", "No-code"],
-      gitUrl: "/",
-      previewUrl: "https://forwardx.weblow.io/"
+      previewUrl: "/"
     },
 
   ]
