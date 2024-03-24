@@ -32,13 +32,17 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#817d7d] dark:text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#817d7d] hidden sm:block dark:text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl">
             I assist designers, small agencies/startups, and businesses in realizing
             their visions. Utilizing tools like Figma, VS Code, and a good cup
             of coffee, I transform your concepts into CMS-integrated and
             e-commerce-ready websites, delivering them promptly and within
             budget.
           </p>
+          <p className="text-[#817d7d] sm:hidden dark:text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl">
+          I am a full-stack (MERN) developer with a passion for front-end and no-code development.
+          </p>
+          
           <SocialLinks />
         </div>
 

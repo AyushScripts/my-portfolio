@@ -8,6 +8,7 @@ import Link from "next/link";
 import Skills from "./components/Skills";
 import ProjectSection from "./components/ProjectSection";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -48,21 +49,8 @@ export default function Home() {
         <div className="container mt-24 mx-auto px-12 py-4">
           <ProjectSection />
           <ContactMe />
+          <Footer/>
 
-          <footer className="mt-20 mb-5 text-center">
-
-            <h3 className="text-[#131313]/70 dark:text-white">
-              Made with{" "}
-              <span>
-                <a className="text-purple-700 dark:text-purple-500" href="https://react.dev">
-                  React
-                </a>
-              </span>
-            </h3>
-            <p className=" text-[#131313]/50 dark:text-white/50 text-xs md:text-sm">
-              Handcrafted by me ©{new Date().getFullYear()}{" "}
-            </p>
-          </footer>
         </div>
       </main>
     </div>
