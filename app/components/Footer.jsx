@@ -9,12 +9,21 @@ const Footer = () => {
         Made with{" "}
         <span>
           <a
-            className="text-purple-700 dark:text-purple-500"
+            className="font-medium dark:font-normal text-purple-700 dark:text-purple-500"
             href="https://react.dev"
           >
-            React
+            React 
           </a>
         </span>
+        {" "}& {" "}
+        <span>
+          <a
+            className="font-medium dark:font-normal text-purple-700 dark:text-purple-500"
+            href="https://nextjs.org"
+          >
+            Next
+          </a>
+        </span>        
       </h3>
       <p className=" text-[#131313]/50 dark:text-white/50 text-xs md:text-sm">
         Handcrafted by Me <a href="https://en.wikipedia.org/wiki/Coffee"><CiCoffeeCup className="inline-block text-lg text-red-400 dark:text-white" /></a> ©{new Date().getFullYear()}
