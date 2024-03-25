@@ -3,6 +3,8 @@
 import HeroSection from "./components/HeroSection";
 import { IoIosSunny } from "react-icons/io";
 import { IoIosMoon } from "react-icons/io";
+import { TiWeatherSunny } from "react-icons/ti";
+import { BsMoon } from "react-icons/bs";
 import React, { useState } from "react";
 import Link from "next/link";
 import Skills from "./components/Skills";
@@ -30,11 +32,11 @@ export default function Home() {
               ayush.
             </Link>
             <div className="toggleButton">
-              <button className="text-3xl" onClick={toggleDarkMode}>
+              <button onClick={toggleDarkMode}>
                 {darkMode ? (
-                  <IoIosSunny title="Light Mode" className="text-white" />
+                  <TiWeatherSunny title="Light Mode" className="text-white text-3xl" />
                 ) : (
-                  <IoIosMoon title="Dark Mode" />
+                  <BsMoon title="Dark Mode" className="text-2xl" />
                 )}
               </button>
             </div>

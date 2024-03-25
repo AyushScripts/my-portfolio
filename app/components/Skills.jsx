@@ -14,13 +14,13 @@ const Skills = () => {
           {skills.map((skill, index) => (
             
             
-            <div id="skills" key={`skill-${index}`} className='w-full max-w-[500px]  bg-[#111928]/80 border border-[#ffffff]/10 rounded-2xl py-5 px-9'>
+            <div id="skills" key={`skill-${index}`} className='w-full max-w-[500px]  bg-purple-400 dark:bg-[#111928]/80 border border-[#ffffff]/10 rounded-2xl py-5 px-9'>
               <p id='skillTitle' className='text-2xl font-medium mt-3 mb-14 lg:mb-20 text-center dark:text-[#f3bff3] text-white'>
                 {skill.title}
               </p>
               <div id='skillList' className='flex justify-center flex-wrap gap-3 mb-5'>
                 {skill.skills.map((item, index) => (
-                  <div key={`skill-item-${index}`} className='text-base font-normal dark:text-white text-[#f3bff3] border border-slate-500 dark:bg-[#eea4a42c] rounded-xl px-4 py-3 flex items-center justify-center gap-2'>
+                  <div key={`skill-item-${index}`} className='text-base transition-all ease-in-out hover:-translate-y-1 font-normal dark:text-white text-[#2c2b2b] border border-purple-200 dark:border-slate-500 bg-[#eea4a449] dark:bg-[#8ab9cc2c] rounded-xl px-4 py-3 flex items-center justify-center gap-2'>
                     <Image src={item.image} width={24} height={24} alt='Skill Icon' />
                     <p>{item.name}</p>
                   </div>
