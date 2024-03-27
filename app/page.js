@@ -13,7 +13,7 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
