@@ -11,7 +11,7 @@ import Skills from "./components/Skills";
 import ProjectSection from "./components/ProjectSection";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
-import TestimonialSlider from "./components/TestimonialSlider";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className="container mx-auto px-12 py-4">
           <HeroSection />
-          <TestimonialSlider/>
+
         </div>
 
         <Skills />
