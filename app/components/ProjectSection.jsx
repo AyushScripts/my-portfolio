@@ -21,7 +21,7 @@ const ProjectSection = () => {
       <div className='text-white flex flex-row justify-center items-center gap-2 py-6 '>
         <ProjectTag onClick={handleTagChange} name = "All" isSelected={tag==="All"} />
         <ProjectTag onClick={handleTagChange} name = "Web" isSelected={tag==="Web"} />
-        <ProjectTag onClick={handleTagChange} name = "No-code" isSelected={tag==="No-code"} />
+        <ProjectTag onClick={handleTagChange} name = "Webflow" isSelected={tag==="Webflow"} />
       </div>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>{filteredProjects.map((project) => <ProjectsCard key={project.id} title={project.title} description={project.description} imgURL={project.image} gitUrl= {project.gitUrl} previewUrl={project.previewUrl} />)}</div>
     </>

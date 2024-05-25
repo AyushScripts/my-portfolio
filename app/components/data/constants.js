@@ -189,49 +189,58 @@
     },
     {
       id: 5,
+      title: "Amaka Studio",
+      description: "Webflow | Custom Code | Conversion Calculator Build",
+      image: "./images/Projects/Amaka.png",
+      tag:["All", "Webflow"],
+      gitUrl: "https://preview.webflow.com/preview/amakastudio?utm_medium=preview_link&utm_source=dashboard&utm_content=amakastudio&preview=bd75748d624348e13cb31f15cc0b7d30&workflow=preview",
+      previewUrl: "https://more.amaka.studio/calculator"
+    },
+    {
+      id: 6,
       title: "ForwardX",
       description: "Webflow | Client-first Framework | Custom Code",
       image: "./images/Projects/forwardx.png",
-      tag:["All", "No-code"],
+      tag:["All", "Webflow"],
       gitUrl: "https://preview.webflow.com/preview/forwardx?utm_medium=preview_link&utm_source=dashboard&utm_content=forwardx&preview=d89054de7e073c886003bc852e123ccc&workflow=preview",
       previewUrl: "https://forwardx.webflow.io"
     },
     {
-      id: 6,
+      id: 7,
       title: "AquaFlow",
       description: "Webflow | Figma",
       image: "./images/Projects/Aquaflow.png",
-      tag:["All", "No-code"],
+      tag:["All", "Webflow"],
       gitUrl: "https://preview.webflow.com/preview/aquaflowbyayush?utm_medium=preview_link&utm_source=dashboard&utm_content=aquaflowbyayush&preview=d0cb3fb27fda55ccfff4faec8ade4ec8&workflow=preview",
       previewUrl: "https://aquaflowbyayush.webflow.io"
     },
     {
-      id: 7,
+      id: 8,
       title: "Team App",
       description: "Webflow | Figma",
       image: "./images/Projects/Team-app.png",
-      tag:["All", "No-code"],
+      tag:["All", "Webflow"],
       gitUrl: "https://preview.webflow.com/preview/vakos-team-app?utm_medium=preview_link&utm_source=designer&utm_content=vakos-team-app&preview=c818e7857734faa8c7960125c72940b0",
       previewUrl: "https://team-app.webflow.io/"
     },
     {
-      id: 8,
+      id: 9,
       title: "Chat App",
       description: "Webflow | Figma",
       image: "./images/Projects/chat-app.png",
-      tag:["All", "No-code"],
+      tag:["All", "Webflow"],
       gitUrl: "https://preview.webflow.com/preview/vakos-chat-app?utm_medium=preview_link&utm_source=dashboard&utm_content=vakos-chat-app&preview=2154452b4341c853684a4611c378c86c&workflow",
       previewUrl: "https://chat-app-homepage.webflow.io/"
     },
     
     {
-      id: 9,
+      id: 10,
       title: "N-Spire Landing Page",
       description: "Webflow | Figma",
       image: "./images/Projects/n-spire.png",
-      tag:["All", "No-code"],
-      gitUrl: "/",
-      previewUrl: "/"
+      tag:["All", "Webflow"],
+      gitUrl: "",
+      previewUrl: "https://n-spire.io"
     },
 
   ]
