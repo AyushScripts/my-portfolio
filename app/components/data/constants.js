@@ -199,7 +199,7 @@
     {
       id: 6,
       title: "ForwardX",
-      description: "Webflow | Client-first Framework | Custom Code",
+      description: "Webflow | Client-first Framework | Custom Code | SaaS",
       image: "./images/Projects/forwardx.png",
       tag:["All", "Webflow"],
       gitUrl: "https://preview.webflow.com/preview/forwardx?utm_medium=preview_link&utm_source=dashboard&utm_content=forwardx&preview=d89054de7e073c886003bc852e123ccc&workflow=preview",
