@@ -80,6 +80,17 @@
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
+        {
+          name: "Convex",
+          image:
+            "https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F8065%2Fd559bbad-1732-4020-82c4-ad689dbdbc5d.png"
+        },
+        {
+          name: "Clerk",
+          image:
+            "https://cdn.sanity.io/images/o0o2tn5x/production/2399b991025c365aafaa6fca85d91deac801e654-1046x1046.png"
+        },
+        
         
       ],
     },
